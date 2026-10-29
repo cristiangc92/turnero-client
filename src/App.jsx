@@ -27,7 +27,7 @@ function App() {
       <h2 className="mt-5 mb-3">Servicios Disponibles</h2>
       <Row>
         {services.length === 0 ? (
-          <p className="text-muted">No hay servicios cargados todavía. (Puedes crearlos mediante Postman o los sumaremos en el siguiente paso).</p>
+          <p className="text-muted">No hay servicios cargados todavía.</p>
         ) : (
           services.map(service => (
             <Col md={4} key={service.id} className="mb-3">
